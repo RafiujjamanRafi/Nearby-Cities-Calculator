@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Major Cities Near</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Major Cities Near</h2>
+
+    <label for="cityInput">Major Cities In:</label>
+    <input id="cityInput" type="text" placeholder="Type a city..." autocomplete="off">
+    <div id="citySuggestions" class="suggestions"></div>
+
+    <button onclick="findNearbyCities()">Find Nearby Cities</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
